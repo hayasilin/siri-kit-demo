@@ -19,12 +19,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        view.backgroundColor = .white
 
         let actionBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(actionBarButtonTapped))
         navigationItem.rightBarButtonItem = actionBarButtonItem
 
-//        donateInteraction()
-//        donateIntent()
+        donateInteraction()
+        donateIntent()
 
 //        let userDefaultsKey = "todo"
 //        guard let defaults = UserDefaults(suiteName: "com.sirilab.TheBurgeoningWriter.Person") else {
@@ -33,8 +34,6 @@ class ViewController: UIViewController {
 //        let toDoList = defaults.stringArray(forKey: userDefaultsKey)
 //
 //        print(toDoList)
-
-
     }
 
     @objc func actionBarButtonTapped(_ sender: UIBarButtonItem) {
@@ -56,7 +55,6 @@ class ViewController: UIViewController {
         let vc = DetailViewController()
         vc.userActivity = activity
 
-        //2
         activity.becomeCurrent()
 
         navigationController?.pushViewController(vc, animated: true)
@@ -119,7 +117,4 @@ class ViewController: UIViewController {
 
         return activity
     }
-
-
 }
-

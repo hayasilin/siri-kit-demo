@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		650E18C12519AB8700A0843F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E18C02519AB8700A0843F /* AppDelegate.swift */; };
-		650E18C32519AB8700A0843F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E18C22519AB8700A0843F /* SceneDelegate.swift */; };
 		650E18C52519AB8700A0843F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E18C42519AB8700A0843F /* ViewController.swift */; };
 		650E18C82519AB8700A0843F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650E18C62519AB8700A0843F /* Main.storyboard */; };
 		650E18CA2519AB8800A0843F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650E18C92519AB8800A0843F /* Assets.xcassets */; };
@@ -62,7 +61,6 @@
 /* Begin PBXFileReference section */
 		650E18BD2519AB8700A0843F /* SiriDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		650E18C02519AB8700A0843F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		650E18C22519AB8700A0843F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		650E18C42519AB8700A0843F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		650E18C72519AB8700A0843F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		650E18C92519AB8800A0843F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 			children = (
 				650E18D42519ABC600A0843F /* SiriDemo.entitlements */,
 				650E18C02519AB8700A0843F /* AppDelegate.swift */,
-				650E18C22519AB8700A0843F /* SceneDelegate.swift */,
 				650E18C42519AB8700A0843F /* ViewController.swift */,
 				650E18C62519AB8700A0843F /* Main.storyboard */,
 				650E18C92519AB8800A0843F /* Assets.xcassets */,
@@ -311,7 +308,6 @@
 				650E18C12519AB8700A0843F /* AppDelegate.swift in Sources */,
 				650E19032519E47300A0843F /* DetailViewController.swift in Sources */,
 				650E18FB2519AD9300A0843F /* Intent.intentdefinition in Sources */,
-				650E18C32519AB8700A0843F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
